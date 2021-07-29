@@ -7,7 +7,7 @@ Prometheus and grafana can be installed using prometheus operator helm charts.
 ## Getting started
 You will need the following software to run this program
 * Python 3.X
-* Install requirements.txt file.
+* Install requirements.txt file.(This should be handled from within dockerfile)
 
 Once the dependencies are installed, we can build a new docker image containing the python logic which probes URL's `https://httpstat.us/200` and `https://httpstat.us/503` and gets the status code and response time. The code and unit test for this python application are available under `pythonprober` directory in this github repo. 
 
